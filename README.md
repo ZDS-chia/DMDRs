@@ -1,7 +1,7 @@
 # DMDRs
 ###Identification of DMDRs
 ##Convert to .wig format
-./bin/towig --ratio_total 5,3 -i ./test_data/N01_chr10.txt -o N01_chr10 -n N01_chr10
+`./bin/towig --ratio_total 5,3 -i ./test_data/N01_chr10.txt -o N01_chr10 -n N01_chr10`
 ./bin/towig --ratio_total 5,3 -i ./test_data/N02_chr10.txt -o N02_chr10 -n N02_chr10
 ##Identification of methylation deficient region
 ./bin/pattern -i ./N01_chr10/N01_chr10_methy.wig -o N01_chr10_pattern/ -n N01_chr10_pattern
