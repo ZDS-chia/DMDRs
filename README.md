@@ -2,10 +2,7 @@
 ## Identification of DMDRs
 ### requires perl environment and bedtools software
 ### Test data
-N01_chr10.txt http://218.8.241.248:8080/6mA-PC/download/data/N01_chr10.rar ；
-
-N02_chr10.txt http://218.8.241.248:8080/6mA-PC/download/data/N02_chr10.rar ；
-
+http://218.8.241.248:8080/6mA-PC/
 ### Convert to .wig format
 
 `./bin/towig --ratio_total 5,3 -i ./N01_chr10.txt -o N01_chr10 -n N01_chr10`
