@@ -1,5 +1,6 @@
 # DMDRs
 ## Identification of DMDRs
+### requires perl environment and bedtools software
 ### Convert to .wig format
 
 `./bin/towig --ratio_total 5,3 -i ./test_data/N01_chr10.txt -o N01_chr10 -n N01_chr10`
